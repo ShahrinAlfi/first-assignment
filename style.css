@@ -18,6 +18,11 @@ body {
   border: 0;
   padding: 20px 43px;
 }
+
+/* main{
+  max-width: 1440px;
+  margin: 0 auto;
+} */
 /* ==================== header & banner section style ============ */
 header {
   background: rgba(229, 84, 115, 0.1);
@@ -29,10 +34,6 @@ header {
   justify-content: space-around;  
 }
 
-.banner-left{
-  margin-left: 240px;
-  margin-top: 190px;
-}
 .banner-title {
   color: #272727;
   font-family: Lato;
@@ -40,7 +41,7 @@ header {
   font-weight: 800;
   margin-bottom: 20px;
 }
-.descroption-text{
+.description-text{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -52,12 +53,83 @@ header {
 header  .btn-primary{
     margin-top: 30px;
 }
+.banner-left{
+  margin-left: 240px;
+  margin-top: 190px;
+}
 
 .banner-right > img{
     width: 635px;
     height: 850px;
-    posotion
+
 }
-.banner-left{
-  
+/* ========== feature flower section style ==== */
+.featured-flower{
+  text-align: center;
+  margin: 50px 240px 50px 240px;
+}
+
+.flower-container{
+  margin-top: 40px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.feature-title{
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.flower-cell-1{
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  display: flex;
+  align-items: flex-end;
+}
+
+.flower-cell-1 img{
+  margin: 0 auto;
+}
+
+.flower-cell-2{
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  display: flex;
+  align-items: flex-end;
+}
+
+.flower-cell-2 img{
+  margin: 0 auto;
+}
+.flower-cell-3{
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);;
+  display: flex;
+  align-items: flex-end;
+}
+
+.flower-cell-3 img{
+  margin: 0 auto;
+}
+
+
+/* =============== hot deal section =========== */
+.hot-deal-section{
+height: 620px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+margin-top: 40px;
 }
