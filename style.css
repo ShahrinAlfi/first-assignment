@@ -132,4 +132,28 @@ height: 620px;
 border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.deal-title{
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  
+}
+
+.hot-deal-section .btn-primary{
+  margin-top: 20px;
+}
+span{
+  color: #E55473;
+}
+
+.hot-deal-col-left{
+ width: 50%;
 }
