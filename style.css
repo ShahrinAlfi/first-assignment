@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===================== main style =========== */
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #E55473;
+  border: 0;
+  padding: 20px 43px;
+}
+/* ==================== header & banner section style ============ */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  height: 850px;
+}
+
+.banner{
+  display: flex;
+  justify-content: space-around;  
+}
+
+.banner-left{
+  margin-left: 240px;
+  margin-top: 190px;
+}
+.banner-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.descroption-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+header  .btn-primary{
+    margin-top: 30px;
+}
+
+.banner-right > img{
+    width: 635px;
+    height: 850px;
+    posotion
+}
+.banner-left{
+  
+}
